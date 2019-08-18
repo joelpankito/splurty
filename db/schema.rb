@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_08_13_022257) do
     t.string "saying"
     t.string "author"
     t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    #t.datetime "updated_at", null: false
   end
 
 end
