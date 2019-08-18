@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'simple_form'
 
+#gem "bootstrap", ">= 4.3.1"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -64,8 +66,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'popper_js', '~> 1.14.3'
+gem 'bootstrap', ">= 4.3.1"
 gem 'simple_form'
 
 source 'https://rails-assets.org' do
