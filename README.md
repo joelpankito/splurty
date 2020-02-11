@@ -26,7 +26,7 @@ SSH:
 $ git@github.com:joelpankito/splurty.git
 
 ```
-Next, cd into the repository you cloned and install the necessary dependencies by running:
+Next, cd into the repository you cloned and install the necessary dependencies 
 * In other to create your local database run:
 ```
 rake db:create
@@ -34,7 +34,7 @@ rake db:create
 ```
 rake db:migrate
 ```
-* Install the necessary dependencies
+* Install the necessary libraries:
 ```
 $ bundle install
 ```
