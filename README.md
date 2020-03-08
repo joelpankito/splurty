@@ -27,7 +27,7 @@ $ git@github.com:joelpankito/splurty.git
 
 ```
 Next, cd into the repository you cloned and install the necessary dependencies 
-* In other to create your local database run:
+* In order to create your local database run:
 ```
 rake db:create
 ```
